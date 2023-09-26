@@ -1,0 +1,40 @@
+body {
+  background-color: grey;
+  margin-top: 90px;
+}
+
+.bakgrund {
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  width: 160px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.light1 {
+  box-sizing: border-box;
+  width: 50%;
+  border: 13px solid rgb(116, 20, 20);
+  padding: 62px;
+  margin: auto;
+  background-color: rgb(228, 11, 11);
+}
+
+.light2 {
+  box-sizing: border-box;
+  width: 50%;
+  border: 13px solid rgb(156, 133, 2);
+  padding: 62px;
+  margin: 5px auto;
+  background-color: rgb(248, 229, 59);
+}
+
+.light3 {
+  box-sizing: border-box;
+  width: 50%;
+  border: 13px solid rgb(21, 109, 18);
+  padding: 62px;
+  margin: auto;
+  background-color: rgb(4, 136, 15);
+}

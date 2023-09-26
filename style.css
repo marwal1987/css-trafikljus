@@ -1,0 +1,62 @@
+body {
+  background-color: grey;
+  margin-top: 100px;
+}
+
+.bakgrund {
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  width: 160px;
+  margin: auto;
+  padding: 5px 0;
+}
+
+.light1 {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 10px solid rgb(116, 20, 20);
+  background-color: rgb(228, 11, 11);
+  margin: auto;
+}
+
+.light2 {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 10px solid rgb(156, 133, 2);
+  background-color: rgb(248, 229, 59);
+  margin: 5px auto;
+}
+
+.light3 {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 10px solid rgb(14, 80, 11);
+  background-color: rgb(4, 136, 15);
+  margin: auto;
+}
+
+.innerlight1 {
+  box-sizing: content-box;
+  background-color: lightcoral;
+  height: 65px;
+  margin-top: 65px;
+}
+
+.innerlight2 {
+  box-sizing: content-box;
+  background-color: lightyellow;
+  height: 65px;
+  width: 65px;
+  float: right;
+}
+
+.innerlight3 {
+  box-sizing: content-box;
+  background-color: lightgreen;
+  height: 65px;
+  width: 65px;
+  margin-top: 65px;
+}

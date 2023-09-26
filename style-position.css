@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.frame {
+  text-align: center;
+  background-color: white;
+  width: 110px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.canvas {
+  display: inline-block;
+  margin: 5px;
+}
+
+.light1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(116, 20, 20);
+  background-color: rgb(228, 11, 11);
+  margin: auto;
+}
+
+.light2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(156, 133, 2);
+  background-color: rgb(248, 229, 59);
+  margin: 5px auto;
+}
+
+.light3 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(14, 80, 11);
+  background-color: rgb(4, 136, 15);
+  margin: auto;
+}
+
+.innerlight1 {
+  position: absolute;
+  bottom: 0;
+  background-color: lightcoral;
+  height: 50%;
+  width: 100%;
+}
+
+.innerlight2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: lightyellow;
+  height: 50%;
+  width: 50%;
+}
+
+.innerlight3 {
+  position: absolute;
+  bottom: 0;
+  background-color: lightgreen;
+  height: 50%;
+  width: 50%;
+}
