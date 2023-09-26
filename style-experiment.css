@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.frame {
+  text-align: center;
+  background-color: black;
+  width: 115px;
+  height: 325px;
+  margin: 240px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px black;
+  border: 1px solid rgb(49, 47, 47);
+}
+
+.canvas {
+  display: inline-block;
+  margin: 5px;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.red {
+  border: 8px solid rgb(116, 20, 20);
+  background-color: rgb(228, 11, 11);
+  box-shadow: 0px 0px 40px red;
+  margin: auto;
+}
+
+.yellow {
+  border: 8px solid rgb(156, 133, 2);
+  background-color: rgb(248, 229, 59);
+  box-shadow: 0px 0px 30px yellow;
+  margin: 5px auto;
+}
+
+.green {
+  border: 8px solid rgb(15, 100, 11);
+  background-color: rgb(19, 194, 34);
+  box-shadow: 0px 0px 60px rgb(2, 184, 2);
+  margin: auto;
+}
+
+/*Kanske lägga in en button som slår av och på box-shadow*/

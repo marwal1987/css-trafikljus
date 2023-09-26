@@ -11,8 +11,7 @@ body {
   background-color: white;
   width: 110px;
   height: 320px;
-  margin: 0 auto;
-  margin-top: 200px;
+  margin: 240px auto;
 }
 
 .canvas {
@@ -20,34 +19,31 @@ body {
   margin: 5px;
 }
 
-.light1 {
+.box {
   position: relative;
   width: 100px;
   height: 100px;
+}
+
+.red {
   border: 10px solid rgb(116, 20, 20);
   background-color: rgb(228, 11, 11);
   margin: auto;
 }
 
-.light2 {
-  position: relative;
-  width: 100px;
-  height: 100px;
+.yellow {
   border: 10px solid rgb(156, 133, 2);
   background-color: rgb(248, 229, 59);
   margin: 5px auto;
 }
 
-.light3 {
-  position: relative;
-  width: 100px;
-  height: 100px;
+.green {
   border: 10px solid rgb(14, 80, 11);
   background-color: rgb(4, 136, 15);
   margin: auto;
 }
 
-.innerlight1 {
+.red-inner {
   position: absolute;
   bottom: 0;
   background-color: lightcoral;
@@ -55,7 +51,7 @@ body {
   width: 100%;
 }
 
-.innerlight2 {
+.yellow-inner {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -64,7 +60,7 @@ body {
   width: 50%;
 }
 
-.innerlight3 {
+.green-inner {
   position: absolute;
   bottom: 0;
   background-color: lightgreen;
