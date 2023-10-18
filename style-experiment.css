@@ -7,47 +7,58 @@ body {
 }
 
 .frame {
-  text-align: center;
-  background-color: black;
-  width: 115px;
-  height: 325px;
-  margin: 240px auto;
+  margin: auto;
+  background-color: #222;
+  width: 120px;
+  height: 335px;
   border-radius: 10px;
-  box-shadow: 10px 10px 20px black;
+  box-shadow: 10px 10px 20px #333;
   border: 1px solid rgb(49, 47, 47);
 }
 
 .canvas {
-  display: inline-block;
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .box {
-  position: relative;
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  margin: 5px;
 }
 
 .red {
-  border: 8px solid rgb(116, 20, 20);
+  border: 5px solid rgb(116, 20, 20);
   background-color: rgb(228, 11, 11);
+}
+
+.red:hover {
   box-shadow: 0px 0px 40px red;
-  margin: auto;
 }
 
 .yellow {
-  border: 8px solid rgb(156, 133, 2);
+  border: 5px solid rgb(156, 133, 2);
   background-color: rgb(248, 229, 59);
+}
+.yellow:hover {
   box-shadow: 0px 0px 30px yellow;
-  margin: 5px auto;
+}
+.green {
+  border: 5px solid rgb(26, 138, 20);
+  background-color: rgba(56, 252, 73, 0.788);
 }
 
-.green {
-  border: 8px solid rgb(15, 100, 11);
-  background-color: rgb(19, 194, 34);
+.green:hover {
   box-shadow: 0px 0px 60px rgb(2, 184, 2);
-  margin: auto;
+}
+
+.pole {
+  background-color: #222;
+  width: 115px;
+  height: 325px;
 }
 
 /*Kanske lägga in en button som slår av och på box-shadow*/
